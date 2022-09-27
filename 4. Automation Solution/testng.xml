@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SwagLab-TestSuit">
+    <test name="C:/Users/mdube/IdeaProjects/Automation-Solution/src/main/java/swagLabs/pages/checkoutPage.java">
+        <parameter name="expectedPrice" value="Total: $43.18"/>
+        <parameter name="expectedConfirmationMsg" value="THANK YOU FOR YOUR ORDER"/>
+        <classes>
+            <class name="swagLab.Test.swagLabTest"/>
+        </classes>
+    </test>
+</suite>
